@@ -26,7 +26,7 @@ Xvert = function(nfac=3,uc=c(0,0),lc=c(0,0),nlc=0,lb=c(0,0),ub=c(0,0),coef,ndm=0
   for (i in (n.uc+1):12) {
     ck<-cbind(ck,c(0,1))
   }
-  
+  nfacc=0
   for (i in 1:12){
     cks<-ck[1,i]+(1-ck[2,i])
     if (cks!=0) {
