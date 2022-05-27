@@ -1,5 +1,5 @@
 Package: mixexp
-Version: 1.2.6
+Version: 1.2.7
 Date: 2022-5-11
 Type: Package
 Title: Design and Analysis of Mixture Experiments
@@ -11,7 +11,7 @@ Author: John Lawson [aut, cre],
   Cameron Willden [aut],
   Greg Piepel [ctb]
 Maintainer: John Lawson <lawson@byu.edu>
-Depends: gdata, lattice, grid, daewr
+Depends: lattice, grid, daewr
 Description: Functions for creating designs for mixture experiments, making ternary contour plots, and making mixture effect plots.
 License: GPL (>= 2)
 LazyLoad: yes
